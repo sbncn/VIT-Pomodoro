@@ -9,6 +9,7 @@ from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QDialog, QApplication
 from PyQt5.uic import loadUi
 
+
 class LoginUI(QDialog):
     def __init__(self):
         super(LoginUI,self).__init__()
