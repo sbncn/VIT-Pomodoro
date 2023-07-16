@@ -1,13 +1,13 @@
 from time import time
 
-from PyQt5 import QtWidgets
-from PyQt5.QtWidgets import QDialog, QApplication
-from PyQt5.uic import loadUi
+from PyQt6 import QtWidgets
+from PyQt6.QtWidgets import QDialog, QApplication
+from PyQt6.uic import loadUi
 import sys
 
-from PyQt5 import QtWidgets
-from PyQt5.QtWidgets import QDialog, QApplication
-from PyQt5.uic import loadUi
+from PyQt6 import QtWidgets
+from PyQt6.QtWidgets import QDialog, QApplication
+from PyQt6.uic import loadUi
 
 
 class LoginUI(QDialog):
@@ -50,7 +50,7 @@ app = QApplication(sys.argv)
 UI = LoginUI() # This line determines which screen you will load at first
 
 # You can also try one of other screens to see them.
-    # UI = MainMenuUI()
+#UI = MainMenuUI()
     # UI = PomodoroUI()
     # UI = ShortBreakUI()
     # UI = LongBreakUI()
@@ -61,4 +61,4 @@ widget.setFixedWidth(800)
 widget.setFixedHeight(600)
 widget.setWindowTitle("Time Tracking App")
 widget.show()
-sys.exit(app.exec_())
+#sys.exit(app.exec_())
